@@ -1,0 +1,24 @@
+---
+title: Página de Inicio
+---
+
+# Bienvenido a mi sitio en Hakyll
+
+Este es el contenido principal de la página de inicio. Puedes modificar este texto según tus necesidades.
+
+## Sección de imágenes
+
+Aquí puedes agregar imágenes que están en la carpeta `images/`:
+
+![Descripción de la imagen](images/ejemplo.jpg)
+
+## Sección de blog
+
+Revisa los últimos artículos del blog:
+
+$for(posts)$
+- [<$title$>](<$url$>)
+$endfor$
+
+Gracias por visitar mi sitio.
+
